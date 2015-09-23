@@ -44,8 +44,10 @@ int main(int argc, char** argv) {
    prepare_data();
 
    google::InitGoogleLogging(argv[0]);
-   double m = 0.;
-   double c = 0.;
+   const double m_0 = .0;
+   const double c_0 = .0;
+   double m = m_0;
+   double c = c_0;
    Problem problem;
    for (int i = 0; i < data_x.size(); ++i) {
       problem.AddResidualBlock(
@@ -61,7 +63,7 @@ int main(int argc, char** argv) {
    Solver::Summary summary;
    Solve(options, &problem, &summary);
    std::cout << summary.BriefReport() << "\n";
-   std::cout << "Initial m: " << 0.0 << " c: " << 0.0 << "\n";
+   std::cout << "Initial m: " << m_0 << " c: " << c_0 << "\n";
    std::cout << "Final   m: " << m << " c: " << c << "\n";
 
    return 0;
