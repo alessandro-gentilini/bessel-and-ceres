@@ -22,7 +22,7 @@ void prepare_data()
    for ( int i = 0; i < 100; i++ ) {
       const double x = i*delta;
       data_x.push_back(x);
-      data_y.push_back(ceres::Bessel_J_1(m*x+c)+gaussian_noise());
+      data_y.push_back(ceres::BesselJ1(m*x+c)+gaussian_noise());
    }
 }
 
@@ -32,7 +32,7 @@ struct MyResidual {
    template <typename T> bool operator()(const T* const m,
       const T* const c,
       T* residual) const {
-         residual[0] = T(y_) - ceres::Bessel_J_1(m[0] * T(x_) + c[0]);
+         residual[0] = T(y_) - ceres::BesselJ1(m[0] * T(x_) + c[0]);
          return true;
    }
 private:
