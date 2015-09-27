@@ -1,13 +1,36 @@
 iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
-   0  9.932090e+00    0.00e+00    1.16e+02   0.00e+00   0.00e+00  1.00e+04        0    2.16e-03    2.27e-03
-   1  8.304102e-01    9.10e+00    1.02e+01   5.38e-01   9.93e-01  3.00e+04        1    2.09e-03    4.59e-03
-   2  6.453983e-01    1.85e-01    2.73e+00   7.56e-02   1.19e+00  9.00e+04        1    2.03e-03    6.66e-03
-   3  6.017870e-01    4.36e-02    1.80e+00   7.70e-02   1.57e+00  2.70e+05        1    1.89e-03    8.59e-03
-   4  5.678125e-01    3.40e-02    1.98e+00   6.35e-02   2.00e+00  8.10e+05        1    1.69e-03    1.03e-02
-   5  4.910950e-01    7.67e-02    3.48e+00   8.92e-02   2.65e+00  2.43e+06        1    1.70e-03    1.20e-02
-   6  1.872825e-01    3.04e-01    3.44e+00   1.89e-01   2.51e+00  7.29e+06        1    1.74e-03    1.38e-02
-   7  1.484126e-01    3.89e-02    4.48e-02   3.25e-02   1.07e+00  2.19e+07        1    1.62e-03    1.54e-02
-   8  1.483745e-01    3.81e-05    1.79e-03   3.94e-03   1.00e+00  6.56e+07        1    1.61e-03    1.71e-02
-Ceres Solver Report: Iterations: 8, Initial cost: 9.932090e+00, Final cost: 1.483745e-01, Termination: CONVERGENCE
-Initial m: 0 c: 0
-Final   m: 0.29985 c: 0.0728359
+   0  2.936973e+00    0.00e+00    1.86e+01   0.00e+00   0.00e+00  1.00e+04        0    2.34e-03    2.48e-03
+   1  4.444204e-01    2.49e+00    7.80e+00   2.94e-01   1.51e+00  3.00e+04        1    2.43e-03    5.12e-03
+   2  1.579357e-01    2.86e-01    1.16e+00   1.01e-01   1.15e+00  9.00e+04        1    2.34e-03    7.51e-03
+   3  1.509327e-01    7.00e-03    1.10e-01   2.38e-02   1.09e+00  2.70e+05        1    2.01e-03    9.56e-03
+   4  1.508698e-01    6.30e-05    1.04e-02   2.22e-03   1.09e+00  8.10e+05        1    1.98e-03    1.16e-02
+   5  1.508692e-01    5.65e-07    9.91e-04   2.10e-04   1.09e+00  2.43e+06        1    2.22e-03    1.38e-02
+Ceres Solver Report: Iterations: 5, Initial cost: 2.936973e+00, Final cost: 1.508692e-01, Termination: CONVERGENCE
+Initial m: 1.2 c: 1.2
+Final   m: 0.998514 c: 1.01887
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.948370e+00    0.00e+00    1.51e+01   0.00e+00   0.00e+00  1.00e+04        0    2.29e-03    2.32e-03
+   1  9.380728e-01    2.01e+00    1.06e+01   5.63e-01   1.56e+00  3.00e+04        1    1.96e-03    4.33e-03
+   2  1.596826e-01    7.78e-01    1.62e+00   3.32e-01   1.34e+00  9.00e+04        1    2.04e-03    6.40e-03
+   3  1.459605e-01    1.37e-02    4.33e-02   7.43e-02   1.05e+00  2.70e+05        1    1.98e-03    8.42e-03
+   4  1.459252e-01    3.53e-05    2.25e-03   5.86e-03   1.06e+00  8.10e+05        1    1.88e-03    1.03e-02
+Ceres Solver Report: Iterations: 4, Initial cost: 2.948370e+00, Final cost: 1.459252e-01, Termination: CONVERGENCE
+Initial m: 1.2 c: 1.2
+Final   m: 0.989039 c: 1.01182
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.155535e+00    0.00e+00    1.94e+01   0.00e+00   0.00e+00  1.00e+04        0    1.85e-03    1.88e-03
+   1  3.700009e-01    2.79e+00    7.17e+00   3.67e-01   1.53e+00  3.00e+04        1    2.08e-03    3.99e-03
+   2  1.509026e-01    2.19e-01    2.03e-02   1.57e-01   9.96e-01  9.00e+04        1    1.79e-03    5.82e-03
+   3  1.508111e-01    9.15e-05    2.23e-03   1.33e-02   9.88e-01  2.70e+05        1    1.48e-03    7.32e-03
+Ceres Solver Report: Iterations: 3, Initial cost: 3.155535e+00, Final cost: 1.508111e-01, Termination: CONVERGENCE
+Initial m: 1.2 c: 1.2
+Final   m: 0.995478 c: 1.00156
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.334367e+00    0.00e+00    1.52e+01   0.00e+00   0.00e+00  1.00e+04        0    1.28e-03    1.30e-03
+   1  5.256300e-01    1.81e+00    7.69e+00   6.13e-01   1.48e+00  3.00e+04        1    1.38e-03    2.70e-03
+   2  1.474052e-01    3.78e-01    2.22e-01   4.30e-01   1.11e+00  9.00e+04        1    1.48e-03    4.20e-03
+   3  1.470903e-01    3.15e-04    1.41e-02   2.23e-02   9.39e-01  2.70e+05        1    1.35e-03    5.57e-03
+   4  1.470893e-01    1.06e-06    9.03e-04   1.10e-03   9.37e-01  8.10e+05        1    1.34e-03    6.93e-03
+Ceres Solver Report: Iterations: 4, Initial cost: 2.334367e+00, Final cost: 1.470893e-01, Termination: CONVERGENCE
+Initial m: 1.2 c: 1.2
+Final   m: 1.01236 c: 0.973266
